@@ -1,0 +1,265 @@
+/* CSS reset */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/* Landing Styles */
+#landing{
+    background-image: url(17febdc11b625-screenshotUrl.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#landing h1 {
+    font-family: Verdana,
+    Geneva,
+    Tahoma,
+    sans-serif;
+    color: aliceblue;
+    font-size: 50px;
+    text-shadow: 3px 5px 6px black;
+}
+
+#landing h2 {
+    font-family: Verdana,
+    Geneva,
+    Tahoma,
+    sans-serif;
+    color: aliceblue;
+    font-size: 30px;
+    text-shadow: 3px 5px 6px black;
+}
+
+/* Navbar */
+nav#navbar {
+    position: fixed;
+    width: 100%;
+}
+
+li.nav-link {
+    display: inline-block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    
+}
+
+
+ul.nav-links {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    background: white;
+    box-shadow: 3px 3px 3px rgb(0 0 0 / 50%);
+    padding: 10px;
+}
+
+a.link {
+    padding: 10px;
+    color: blueviolet;
+    text-decoration: none;
+}
+
+#about {
+    font-family: Verdana,
+    Geneva,
+    Tahoma,
+    sans-serif;
+    color: blueviolet;
+    font-size: 30px;
+    display: flex;
+    padding: 100px;
+}
+
+
+.About-me{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: initial;
+    margin-left: 20vw;
+}
+
+.details{
+    display: flex;
+    justify-content: flex-end;
+    
+    margin-right: -19vw;
+}
+
+img {
+    width: 100%;
+    height: 200px;
+    width: 200px;
+}
+
+ul {
+    list-style-type: none;
+    font-size: smaller;
+}
+
+.Skills {
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin: 87px;
+    margin-left: 15vh;
+    
+}
+
+.Details {
+    display: flex;
+
+}
+
+.meter {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
+
+meter {
+    width: 100%;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-content: flex-start;
+}
+
+.About-Me {
+    margin-top: 80px;
+}
+
+section {
+    min-height: 100vh;
+    background-color: blueviolet;
+    padding: 5% 10%;
+}
+
+section#testimonials {
+    padding: 5% 10%;
+    font-family: Verdana,
+    Geneva,
+    Tahoma,
+    sans-serif;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.test-img {
+    border-radius: 50%;
+}
+
+#resume {
+    font-family: Verdana,
+    Geneva,
+    Tahoma,
+    sans-serif;
+    color: blueviolet;
+    text-align: center;
+    padding: 100px;
+}
+
+.res {
+    border-bottom: solid blueviolet
+}
+
+#projects {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+    text-align: center;
+}
+
+#contact {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blueviolet;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+}
+
+.head-form {
+    border-bottom: solid blueviolet
+}
+
+.form {
+    margin-right: 100px;
+}
+
+.contact-info {
+    margin-top: 25px;
+}
+
+button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 5rem;
+}
+
+button {
+    color: white;
+    background-color: blueviolet;
+    border: 2px solid white;
+    display: block;
+}
+
+.button:hover {
+    background-color: white;
+    color: blueviolet;
+    border: solid blueviolet;
+}
+
+.socials {
+    margin-left: 175px;
+}
+
+.social-info {
+    margin-top: 25px;
+}
+
+footer {
+    text-align: center;
+    color: #fff;
+    padding: 25px 0;
+    background: blueviolet;
+    font-family: Verdana,
+    Geneva,
+    Tahoma,
+    sans-serif;
+}
+
+section:nth-last-of-type(odd) {
+    background-color: aliceblue;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 800px) {
+    .nav-links {
+        display: none;
+    
+}
